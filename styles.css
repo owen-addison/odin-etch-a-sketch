@@ -1,0 +1,35 @@
+body {
+    height: 80vh;
+    /* width: 100vh; */
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.cell {
+    background-color: white;
+}
+
+#draw {
+    background-color: darkslateblue;
+    opacity: 0.1;
+}
+
+#btn {
+    background-color: aliceblue;
+    border: 2px solid darkslateblue;
+    color: darkslateblue;
+    font-size: 16px;
+    padding: 0.8em 1.5em;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#btn:hover {
+    color: white;
+    background-color: darkslateblue;
+}
+
